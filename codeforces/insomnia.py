@@ -1,0 +1,6 @@
+k=int(input())
+l=int(input())
+m=int(input())
+n=int(input())
+d=int(input())
+print(sum(any((i%k==0,i%l==0,i%m==0,i%n==0)) for i in range(1,d+1)))
